@@ -88,6 +88,7 @@ header, footer {
     padding: 1px 10px;
     margin-right: 10px;
     display: inline-block;
+    transition: all 0.3s ease-out;
 }
 
 .nav-link:hover {
