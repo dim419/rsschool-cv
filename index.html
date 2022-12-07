@@ -1,20 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Dmitry Dvoretskov</h1>
-    <h2> My Contact Info </h2>
-    <ul>
-        <li>Location: Minsk, Belarus</li>
-        <li>Phone, Telegram, Viber: +375 29 669-60-56</li>
-        <li>Email: 6696056@gmail.com</li>
-        <li>GitHub: dim419</li>
-        <li>Discord: dimetricus (@dim419)</li>
-    </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./assets/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div class="container header-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#about-me" class="nav-link">About me</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>  
+                        <li>
+                            <a href="#code-examples" class="nav-link">Code</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li>
+                            <a href="#courses" class="nav-link">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#language" class="nav-link">Language</a>
+                        </li>   
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="section-main">
+                    <img class="avatar" src="./assets/img/avatar.jpg" alt="My foto">
+                    <div class="header-info">
+                        <h1 class="title-cv">Dmitry Dvoretskov</h1>
+                        <h2 class="title-prof">Junior Front-End developer</h2>
+                    </div>
+                </section>
+                <div class="section-wrapper">
+                    <section class="section">
+                        <h2 class="section-title" id="contact">My Contact Info</h2>
+                        <ul class="section-list">
+                            <li>Location: Minsk, Belarus</li>
+                            <li>Phone, Viber: +375 29 669-60-56</li>
+                            <li>Telegram: <a href="https://t.me/dim419" title="Telegram" target="_blank">@dim419</a></li>
+                            <li>Email: <a href="mailto:6696056@gmail.com" title="Email" target="_blank">6696056@gmail.com</a></li>
+                            <li>GitHub: <a href="https://github.com/dim419/" title="GitHub" target="_blank">dim419</a></li>
+                            <li>Discord: <a href="https://discordapp.com/users/1019929269121593414" title="Discord" target="_blank">dimetricus (@dim419)</a></li>
+                        </ul>
+                    </section>
+                    <section class="section" id="about-me">
+                        <h2 class="section-title">About Me</h2>
+                        <p>At this stage, I work as a specialist in the field of inspection of building structures. The specifics of my work is connected with the implementation of construction drawings, the calculation of the strength of structures. Development of program scripts for the calculation of building structures necessary for my current work.</p>
+                        <p>Key strengths:</p>
+                        <ul>
+                            <li>I always bring my goals to the end.</li>
+                            <li>Desire to acquire new knowledge and develop.</li>
+                        </ul>
+                    </section>    
+                    <section class="section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <ul class="section-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (basic knowledge)</li>
+                            <li>Python (basic knowledge)</li>
+                            <li>Git/GitHub</li>
+                            <li>AutoCAD</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="code-examples">
+                        <h2 class="section-title">Code examples</h2>
+                        <pre class="pre">
+                            function getRandomNumber(){
+                                const randomNumber = Math.round(Math.random() * 100)
+                                return randomNumber
+                            }
+                        </pre>
+                    </section>
+                    <section class="section" id="projects">
+                        <h2 class="section-title">My projects</h2>
+                        <ul class="section-list">
+                            <li><a href="https://dim419.github.io/rsschool-cv/" target="_blank">CV</a></li>
+                        </ul>
+                    </section>
+                    <section class="section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <ul class="section-list">
+                            <li>Minsk State Architectural and Construction College, Builder Technician</li>
+                            <li>Belarusian National Technical University, Civil Engineer</li>
+                        </ul>
+                    </section>
+                    <section class="section section-courses" id="courses">
+                        <h2 class="section-title">Courses</h2>
+                        <ul class="section-list">
+                            <li><a href="https://htmlacademy.ru/" target="_blank">HTML Academy</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=KdZ4HF1SrFs" target="_blank">Algorithms in Python 3 for Timofey Khiryanov</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=Sy_wba7l1UU" target="_blank">CS50</a></li> 
+                        </ul>
+                    </section>   
+                    <section class="section section-language" id="language">
+                        <h2 class="section-title">Language</h2>
+                        <ul class="section-list">
+                            <li>Russian - nativ</li>
+                            <li>Belarusian - Intermediate</li>
+                            <li>English - Elementary</li>
+                            <li>Polish - Elementary</li>
+                        </ul>
+                    </section>
+                </div>
+                
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer-list">
+                    <li>©2022</li>
+                    <li><a href="https://rs.school/js/" target="_blank"><img src="./assets/svg/rs_school_js.svg" alt="Rs_School" class="footer-link"></a></li>
+                    <li><a href="https://github.com/dim419" target="_blank" class="footer-link"><img src="./assets/svg/icons8-github.svg" alt="GitHub">My GitHub</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
